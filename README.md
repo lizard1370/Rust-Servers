@@ -27,6 +27,6 @@ A sleek, responsive website for a **Rust** game server showing server info, stat
 Clone the repo and install dependencies:
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/lizard1370/Rust-Servers/
+cd Rust-Servers
 npm install
