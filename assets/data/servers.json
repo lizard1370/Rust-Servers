@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Alpha Wipe",
+    "region": "US",
+    "gameMode": "PvP",
+    "players": 245,
+    "maxPlayers": 250,
+    "wipeDate": "2026-02-01",
+    "description": "Vanilla PvP with active admins"
+  },
+  {
+    "id": 2,
+    "name": "Survivors Den",
+    "region": "EU",
+    "gameMode": "PvP",
+    "players": 180,
+    "maxPlayers": 200,
+    "wipeDate": "2026-02-08",
+    "description": "Hardcore PvP no clans"
+  },
+  {
+    "id": 3,
+    "name": "Industrial Hub",
+    "region": "US",
+    "gameMode": "PvE",
+    "players": 120,
+    "maxPlayers": 150,
+    "wipeDate": "2026-02-15",
+    "description": "PvE building and exploration"
+  },
+  {
+    "id": 4,
+    "name": "Night Runners",
+    "region": "AP",
+    "gameMode": "PvP",
+    "players": 198,
+    "maxPlayers": 200,
+    "wipeDate": "2026-02-01",
+    "description": "Low-pop competitive PvP"
+  },
+  {
+    "id": 5,
+    "name": "The Wasteland",
+    "region": "EU",
+    "gameMode": "PvP",
+    "players": 249,
+    "maxPlayers": 250,
+    "wipeDate": "2026-01-25",
+    "description": "Highly competitive server"
+  },
+  {
+    "id": 6,
+    "name": "Sanctuary",
+    "region": "US",
+    "gameMode": "PvE",
+    "players": 92,
+    "maxPlayers": 150,
+    "wipeDate": "2026-02-10",
+    "description": "Relaxed community building"
+  },
+  {
+    "id": 7,
+    "name": "Toxic Marshlands",
+    "region": "SA",
+    "gameMode": "PvP",
+    "players": 156,
+    "maxPlayers": 200,
+    "wipeDate": "2026-02-03",
+    "description": "Hardcore survival challenge"
+  },
+  {
+    "id": 8,
+    "name": "Rust Academy",
+    "region": "EU",
+    "gameMode": "PvE",
+    "players": 64,
+    "maxPlayers": 100,
+    "wipeDate": "2026-02-12",
+    "description": "Beginner friendly learning server"
+  }
+]

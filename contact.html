@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - RUST</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">RUST</a>
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servers.html">Servers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="contact-header">
+          <h1>Get in Touch</h1>
+          <p>Have questions or issues? Contact our support team</p>
+        </div>
+
+        <div class="contact-container">
+          <div>
+            <div class="form-message"></div>
+            <form>
+              <div class="form-group" data-field="name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <span class="form-error">Name must be at least 2 characters</span>
+              </div>
+
+              <div class="form-group" data-field="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com">
+                <span class="form-error">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group" data-field="subject">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                <span class="form-error">Subject must be at least 5 characters</span>
+              </div>
+
+              <div class="form-group" data-field="message">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+                <span class="form-error">Message must be at least 10 characters</span>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-method-title">Email Support</div>
+                <p><a href="mailto:support@rust.game">support@goon.kevin</a></p>
+              </div>
+              <div class="contact-method">
+                <div class="contact-method-title">Discord Community</div>
+                <p><a href="https://discord.gg/rust">discord.gg/rust</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Game</h3>
+          <ul>
+            <li><a href="servers.html">Servers</a></li>
+            <li><a href="https://facepunch.com/" target="_blank">FacePunch ltd.</a></li>
+            <li><a href="https://commits.facepunch.com/" target="_blank">Commits</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Community</h3>
+          <ul>
+            <li><a href="https://discord.gg/rust" target="_blank">Rust Discord</a></li>
+            <li><a href="https://www.battlemetrics.com/" target="_blank">Battle Metrics</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+            <li><a href="#" class="legal-link" data-type="tos">Terms of Service</a></li>
+            <li><a href="#" class="legal-link" data-type="privacy">Privacy Policy</a></li>
+            <li><a href="#" class="legal-link" data-type="eula">EULA</a></li>
+            <li><a href="#" class="legal-link" data-type="code">Code of Conduct</a></li>
+        </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <p>Follow us on social media</p>
+            <div class="footer-socials">
+            <a href="https://steamcommunity.com/profiles/76561199487961907/" class="footer-social-link" title="Steam" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/steam.png" alt="Steam">
+            </a>
+            <a href="https://discord.gg/kZVKH8CjVq" class="footer-social-link" title="Discord" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/discord.png" alt="Discord">
+            </a>
+            <a href="https://www.youtube.com/@Lizardrust" class="footer-social-link" title="YouTube" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/youtube.png" alt="YouTube">
+            </a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Kevin Fries. All rights reserved.</span>
+        <div>
+          <a href="/contact.html">contact</a> • <a href="/contact.html">Report</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>

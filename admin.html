@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Contacts</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">RUST</a>
+      <div class="hamburger">
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+        <div class="hamburger-line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servers.html">Servers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="admin-header">
+          <h1>Contacts</h1>
+          <div class="admin-actions">
+            <button class="btn-export">Export CSV</button>
+            <button class="btn-clear">Clear All</button>
+          </div>
+        </div>
+
+        <div class="admin-stats">
+          <div class="admin-stat">
+            <div class="admin-stat-value">0</div>
+            <div class="admin-stat-label">Total Messages</div>
+          </div>
+        </div>
+
+        <table class="contacts-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Subject</th>
+              <th>Date</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" class="no-contacts"><p>No contacts received yet</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Contact Details</h2>
+        <button class="btn-close">×</button>
+      </div>
+
+      <div class="modal-field" data-field="name">
+        <label class="modal-label">Name</label>
+        <div class="modal-value"></div>
+      </div>
+
+      <div class="modal-field" data-field="email">
+        <label class="modal-label">Email</label>
+        <div class="modal-value"></div>
+      </div>
+
+      <div class="modal-field" data-field="subject">
+        <label class="modal-label">Subject</label>
+        <div class="modal-value"></div>
+      </div>
+
+      <div class="modal-field" data-field="message">
+        <label class="modal-label">Message</label>
+        <div class="modal-value"></div>
+      </div>
+
+      <div class="modal-field" data-field="date">
+        <label class="modal-label">Received</label>
+        <div class="modal-value"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Game</h3>
+          <ul>
+            <li><a href="servers.html">Servers</a></li>
+            <li><a href="https://facepunch.com/" target="_blank">FacePunch ltd.</a></li>
+            <li><a href="https://commits.facepunch.com/" target="_blank">Commits</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Community</h3>
+          <ul>
+            <li><a href="https://discord.gg/rust" target="_blank">Rust Discord</a></li>
+            <li><a href="https://www.battlemetrics.com/" target="_blank">Battle Metrics</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+            <li><a href="#" class="legal-link" data-type="tos">Terms of Service</a></li>
+            <li><a href="#" class="legal-link" data-type="privacy">Privacy Policy</a></li>
+            <li><a href="#" class="legal-link" data-type="eula">EULA</a></li>
+            <li><a href="#" class="legal-link" data-type="code">Code of Conduct</a></li>
+        </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <p>Follow us on social media</p>
+            <div class="footer-socials">
+            <a href="https://steamcommunity.com/profiles/76561199487961907/" class="footer-social-link" title="Steam" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/steam.png" alt="Steam">
+            </a>
+            <a href="https://discord.gg/kZVKH8CjVq" class="footer-social-link" title="Discord" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/discord.png" alt="Discord">
+            </a>
+            <a href="https://www.youtube.com/@Lizardrust" class="footer-social-link" title="YouTube" target="_blank" rel="noopener noreferrer">
+                <img src="/assets/images/youtube.png" alt="YouTube">
+            </a>
+            </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Kevin Fries. All rights reserved.</span>
+        <div>
+          <a href="/contact.html">contact</a> • <a href="/contact.html">Report</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/navbar.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

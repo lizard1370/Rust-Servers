@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Rust';
+    src: url('/assets/font/Rust.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+  --primary-orange: #e65100;
+  --dark-bg: #1a1a1a;
+  --darker-bg: #0f0f0f;
+  --surface: #262626;
+  --surface-light: #333333;
+  --text-primary: #ffffff;
+  --text-secondary: #cccccc;
+  --text-muted: #999999;
+  --border-color: #404040;
+  --accent: #ff6600;
+  --success: #4caf50;
+  --error: #f44336;
+  --transition: 0.2s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+a {
+  color: var(--primary-orange);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  transition: background-color var(--transition), transform var(--transition);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 60px 20px;
+}
+.rust {
+    font-family: 'Rust', sans-serif;
+    font-size: 90px;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-weight: 900;
+}
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 20px;
+  }
+}
