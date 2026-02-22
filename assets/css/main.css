@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: 'Rust';
-    src: url('assets/font/Rust.ttf') format('truetype');
+    src: url('/assets/font/Rust.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
