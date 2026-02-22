@@ -1,50 +1,32 @@
-🛠️ Rust Server Website
+# 🛠️ Rust Server Website
 
-A sleek, responsive website for a Rust game server showing server info, stats, and player details.
+![Node.js](https://img.shields.io/badge/Node.js-14+-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue)
 
-✨ Features
+A sleek, responsive website for a **Rust** game server showing server info, stats, and player details.
 
-✅ Live Rust server info and stats
+---
 
-✅ Responsive design for desktop & mobile
+## ✨ Features
 
-✅ Easy local setup with Node.js
+- ✅ Live Rust server info and stats  
+- ✅ Responsive design for desktop & mobile  
+- ✅ Easy local setup with Node.js  
+- ✅ Clean, modern UI  
 
-✅ Clean, modern UI
+---
 
-⚙️ Requirements
+## ⚙️ Requirements
 
-Node.js
- 14 or higher
+- [Node.js](https://nodejs.org/) 14 or higher  
+- npm  
 
-npm
+---
 
-🚀 Installation
+## 🚀 Installation
 
 Clone the repo and install dependencies:
 
+```bash
 git clone <your-repo-url>
 cd <project-folder>
 npm install
-🏃‍♂️ Running
-
-Start the website locally:
-
-npm start
-
-Open your browser at:
-
-http://localhost:3000
-🤝 Contributing
-
-Feel free to:
-
-Open issues
-
-Submit pull requests
-
-Help improve the website and add more features!
-
-📄 License
-
-MIT License
